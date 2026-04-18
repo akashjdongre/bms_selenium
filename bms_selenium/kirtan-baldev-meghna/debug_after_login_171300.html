@@ -1,0 +1,194 @@
+<html lang="en"><head id="Head1"><title>
+	BookMyShow - BackOffice
+</title><meta http-equiv="Cache-Control" content="no-cache"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"><meta charset="utf-8"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width"><link href="Common/BackOffice.css" rel="stylesheet" type="text/css"><link rel="stylesheet" href="Common/bootstrap.css" type="text/css"><link href="Common/main.css" rel="stylesheet" type="text/css"><link rel="stylesheet" href="Common/bootstrap-responsive.css?v123" type="text/css"><link rel="apple-touch-icon" href="Common/img/apple-touch-icon.png"><link rel="apple-touch-icon" sizes="72x72" href="Common/img/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="114x114" href="Common/img/apple-touch-icon-114x114.png">
+    <link rel="shortcut icon" href="https://in.bookmyshow.com/favicon.ico" type="image/x-icon">
+
+    <script type="text/javascript" src="Code/BackOfficeModuleCode.js?0"></script>
+    <script src="Code/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="Code/jquery-ui.1.12.js"></script>
+    <script type="text/javascript" src="Code/5.0.2/bootstrap.js"></script>
+    <script type="text/javascript" src="Code/jquery.uniform.4.2.2.js"></script>
+  
+    <style type="text/css">
+        body, #InnerDiv, .container-fluid, .container {
+            position: inherit;
+        }
+
+        /*  shows the dropdown on hover*/
+        .navbar ul.nav li:hover > ul.dropdown-menu {
+            display: block;
+        }
+
+
+        /* before and after */
+        .navbar .nav > li > .dropdown-menu::before, .navbar .nav > li > .dropdown-menu::after {
+            display: none;
+        }
+
+        .alert {
+            font-size: 17px;
+            padding: 20px 30px 20px 18px;
+        }
+    </style>
+    
+    <script language="javascript" type="text/javascript">
+
+        function StopBack() {
+            window.history.forward(1);
+        }
+        window.onload = StopBack();
+    </script>
+
+</head>
+<body>
+    <script type="text/javascript">
+        function subGoToUrl(strURL, blnIsParent, strModuleName) {
+            if (blnIsParent == false) {
+                document.getElementById('frmContent').src = strURL;
+            }
+            else {
+                parent.location.href = strURL;
+            }
+        }
+        function subClickAnchor() {
+            document.getElementById('lnkMyProfile').click();
+        }
+    </script>
+    <form name="frmMenu" method="post" action="./home.aspx" id="frmMenu">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="8D0E13E6">
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/Wf62h8Y8UnwyPg/Ofq7PBYTA8DxAvcgtpK0GuAW6N+y2T9sqo9Iygpvv8oe8Hk9K3/aPk/uI/nGvfjamjfkEpgVIaEZwgPWmXElZjwiCYPrfLczzcNrCAzhL0jq/QzdnmysTw==">
+</div>
+        <input name="hdnUserGroupId" type="hidden" id="hdnUserGroupId">
+        <div id="InnerDiv" class="container">
+            <div id="header" style="height: 70px;">
+                <div class="logo" style="width: 250px; float: left">
+                    <img alt="" src="Common/Images/BMSLogo.png" style="height: 60px;">
+                </div>
+
+                <div class="fr pr10" style="float: right; margin-top: 25px; text-align: right; margin-right: 10px;">
+                    <label id="tdwelcome" class="lblDefault" style="color:#000">Welcome, <a target="frmContent" id="lnkProfile" title="My Profile" href="MyProfile.aspx">kirtan.1</a> | <a target="frmContent" id="lnkHome" title="Home" href="javascript:window.location.reload(true)">Home</a>   | <a target="frmContent" id="lnkChangePassword" title="Change Password" href="ChangePassword.aspx">Change Password</a>   | <a title="Logout" href="default.aspx?LOGOUT">Logout</a></label>
+                </div>
+                <div style="display: none;">
+                    <a target="frmContent" id="lnkMyProfile" href="MyProfile.aspx">My Profile</a>
+                </div>
+            </div>
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <div class="container">
+                        <a data-bs-target=".nav-collapse" data-bs-toggle="collapse" class="btn btn-navbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                        </a>
+                        <div id="menus" class="nav-collapse collapse" style="height: 0px;"><ul class="nav"><li></li><li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#">Tools<b class="caret"></b></a><ul class="dropdown-menu"><li><a tabindex="-1" onclick="javascript:subGoToUrl('ChangePassword.aspx',false)">Change Password</a></li></ul></li><li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#">Event Reports<b class="caret"></b></a><ul class="dropdown-menu"><li><a tabindex="-1" onclick="javascript:subGoToUrl('Reports/rptEventwiseSummary.aspx',false)">Event Summary Report</a></li><li><a tabindex="-1" onclick="javascript:subGoToUrl('Reports/rptCategoryWiseSumm.aspx',false)">Event Category Report</a></li><li><a tabindex="-1" onclick="javascript:subGoToUrl('EventReports/rptEventSummaryReport.aspx',false)">Summary Report</a></li></ul></li><li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#">Reports<b class="caret"></b></a><ul class="dropdown-menu"><li class="dropdown-submenu"><a tabindex="-1" href="#">Sales Reports</a><ul class="dropdown-menu"><li><a tabindex="-1" onclick="javascript:subGoToUrl('Reports/rptNewEventShowWiseSales.aspx',false)">Event Show Wise New</a></li></ul></li></ul></li><li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#">Organizer Payment Reports<b class="caret"></b></a><ul class="dropdown-menu"><li><a tabindex="-1" onclick="javascript:subGoToUrl('NonMoviePayments/rptCompletedOrganizerPayments.aspx',false)">Completed Payments Report</a></li></ul></li></ul></div>
+                    </div>
+                </div>
+            </div>
+            <div id="content">
+                <div id="dvNotification" style="display: none;" class="container">
+                    <div class="alert alert-info alert-dismissible fade in" style="float: right;">
+                        <a href="#" class="close" data-bs-dismiss="alert" aria-label="close">×</a>
+                        <strong>Info!</strong>
+                        <b style="color: black;">0</b> refunds are pending from your end. To view details  
+                        <div id="lnkDiv">
+                            <a href="#" id="navLink" class="alert-link">
+                                <div id="dvLinkText">Check Here</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>               
+                <iframe id="frmContent" style="border: solid 0px black; width: 100%; height: 700px; text-align: center" frameborder="0"></iframe>               
+            </div>
+        </div>
+    </form>
+    <script type="text/javascript">
+
+        $('#menus').css("height", "0px");
+        $('#frmContent').on("load", function () {
+            //change the height of page to height of frame
+            if ($("#frmContent").contents().find("html").height() > 700) {
+                $("#frmContent").height($("#frmContent").contents().find("html").height());
+            };
+
+            //check level of page
+            var chkSlash = $('#frmContent').attr("src").match(/\//g);
+            var count = 0;
+            if (chkSlash != null)
+                count = chkSlash.length;
+
+            // add uniform css to all pages
+            var cssLink = document.createElement("link");
+            var cssLink1 = document.createElement("link");
+
+            if (count == 0) {
+                cssLink.href = "Common/uniform.default.css";
+                cssLink1.href = "Common/bootstrap.css";
+            }
+            else if (count == 1) {
+                cssLink.href = "../Common/uniform.default.css";
+                cssLink1.href = "../Common/bootstrap.css";
+            }
+            else if (count == 2) {
+                cssLink.href = "../../Common/uniform.default.css";
+                cssLink1.href = "../../Common/bootstrap.css";
+            }
+
+            cssLink.rel = "stylesheet";
+            cssLink.type = "text/css";
+            cssLink1.rel = "stylesheet";
+            cssLink1.type = "text/css";
+            var $head = $("#frmContent").contents().find("head");
+            $head.append(cssLink);
+            $head.append(cssLink1);
+
+            //change the button desgin
+            $('#frmContent').contents().find("button, input[type='button'], input[type='submit']").not(".ui-multiselect").css("background-image", "");
+            $('#frmContent').contents().find("button, input[type='button'], input[type='submit']").not(".ui-multiselect").css("width", "");
+            $('#frmContent').contents().find("button, input[type='button'], input[type='submit']").not(".ui-multiselect").addClass("btn btn-primary");
+
+            //apply uniform
+            $('#frmContent').contents().find("table").find("input, textarea").not("button, input[type='button'], input[type='submit'], input[type='radio']").uniform();
+
+            //update uniform
+            $('#frmContent').contents().find("table").find(":checkbox").click(function () {
+                $('#frmContent').contents().find("table").find("input, textarea").not("button, input[type='button'], input[type='submit'], input[type='radio']").uniform();
+            });
+
+            //update uniform
+            $('#frmContent').contents().find("table").find("select").change(function () {
+                $('#frmContent').contents().find("table").find("input, textarea").not("button, input[type='button'], input[type='submit'], input[type='radio']").uniform();
+            });
+
+            $('#frmContent').contents().find("div.selector").css("width", "");
+
+        });
+
+        //update uniform from other pages
+        function UpdateUniform() {
+            $('#frmContent').contents().find("table").find("input, textarea").not("button, input[type='button'], input[type='submit']").uniform();
+        }
+
+        function AddParameter(form, name, value) {
+            var $input = $("<input />").attr("type", "hidden")
+                .attr("name", name)
+                .attr("value", value);
+            form.append($input);
+        }       
+
+        /* Hide Refund page link and set timeout to hide notification division */
+        $(document).ready(function () {
+            $("#lnkDiv a").click(function () {
+                $("#dvLinkText").css("visibility", "hidden");
+                setTimeout(function () {
+                    $("#dvNotification").css("display", "none");
+                }, 15000);
+            });           
+        });
+    </script>
+
+
+</body></html>

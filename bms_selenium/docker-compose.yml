@@ -1,22 +1,8 @@
-mysql-replica:
-    image: mysql:8.0
-    container_name: mysql-replica
-    restart: on-failure
-    environment:
-      MYSQL_ROOT_PASSWORD: rootpassword
-      MYSQL_DATABASE: mydb
-      MYSQL_USER: myuser
-      MYSQL_PASSWORD: mypassword
-    ports:
-      - "3308:3306"
+services:
+  py-selenium-app:
+    build: .
     volumes:
-      - ./mysql-replica-data:/var/lib/mysql
-      - ./init:/docker-entrypoint-initdb.d
-    command: >
-      --server-id=2
-      --relay-log=relay-bin
-      --read-only=1
-    extra_hosts:
-      - "host.docker.internal:host-gateway"
-    networks:
-      - app-network
+      - .:/app
+    environment:
+      - CHROME_BIN=/usr/bin/google-chrome
+      - CHROMEDRIVER_PATH=/usr/bin/chromedriver

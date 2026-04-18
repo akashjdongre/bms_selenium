@@ -23,8 +23,8 @@ PROCESSED_FOLDER = os.path.join(BASE_DIR, "processed")  # date subfolder added a
 LOG_FILE         = os.path.join(BASE_DIR, "seat_scheduler_log.txt")
 
 BMS_URL      = "https://bo.bookmyshow.com/"
-BMS_USER     = "user_name"
-BMS_PASSWORD = "password"
+BMS_USER     = "kirtan.1"
+BMS_PASSWORD = "Bs@12345"
 
 COMPANY_VALUES = ["BALG"]
 
