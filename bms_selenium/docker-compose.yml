@@ -1,0 +1,22 @@
+mysql-replica:
+    image: mysql:8.0
+    container_name: mysql-replica
+    restart: on-failure
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: mydb
+      MYSQL_USER: myuser
+      MYSQL_PASSWORD: mypassword
+    ports:
+      - "3308:3306"
+    volumes:
+      - ./mysql-replica-data:/var/lib/mysql
+      - ./init:/docker-entrypoint-initdb.d
+    command: >
+      --server-id=2
+      --relay-log=relay-bin
+      --read-only=1
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    networks:
+      - app-network

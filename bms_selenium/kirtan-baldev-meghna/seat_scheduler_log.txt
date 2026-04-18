@@ -1,0 +1,79 @@
+[2026-04-18 13:10:17] Script started
+[2026-04-18 13:10:37] Login successful
+[2026-04-18 13:10:43] Navigated to Event Show Wise New
+[2026-04-18 13:10:53] Processing company code: BALG
+[2026-04-18 13:11:06] Exported report for BALG
+[2026-04-18 13:11:14] Browser closed
+[2026-04-18 13:11:14] Processing file: EventShowwiseRpt_BALG_BALG_.xlsx
+[2026-04-18 13:11:14]   Inserted/updated 217 rows from EventShowwiseRpt_BALG_BALG_.xlsx
+[2026-04-18 13:11:14]   Moving to D:\DOCKER\practice\bms_selenium\kirtan-baldev-meghna\processed\2026-04-18\EventShowwiseRpt_BALG_BALG_.xlsx
+[2026-04-18 13:11:14]   Moved successfully
+[2026-04-18 13:11:14] Script finished
+[2026-04-18 11:19:54] Script started
+[2026-04-18 11:20:31] Login successful
+[2026-04-18 11:20:31] Clicking on element with XPath: //a[normalize-space()='Reports']
+[2026-04-18 11:21:32] Browser closed
+[2026-04-18 11:25:26] Script started
+[2026-04-18 11:26:00] Login successful
+[2026-04-18 11:26:00] Debug snapshot saved: /app/kirtan-baldev-meghna/debug_after_login_112600.png
+[2026-04-18 11:26:00] Clicking on element with XPath: //a[normalize-space()='Reports']
+[2026-04-18 11:26:31] Debug snapshot saved: /app/kirtan-baldev-meghna/debug_before_iframe_switch_112631.png
+[2026-04-18 11:27:02] Browser closed
+[2026-04-18 11:32:00] Script started
+[2026-04-18 11:32:35] Login successful
+[2026-04-18 11:32:36] Debug snapshot saved: /app/kirtan-baldev-meghna/debug_after_login_113235.png
+[2026-04-18 11:32:36] Clicking on element with XPath: //a[normalize-space()='Reports']
+[2026-04-18 11:32:38] Clicking on element with XPath: //a[normalize-space()='Sales Reports']
+[2026-04-18 11:32:40] Clicking on element with XPath: //a[normalize-space()='Event Show Wise New']
+[2026-04-18 11:32:42] Navigated to Event Show Wise New
+[2026-04-18 11:32:52] Processing company code: BALG
+[2026-04-18 11:33:10] Exported report for BALG
+[2026-04-18 11:33:15] Browser closed
+[2026-04-18 11:33:15] Processing file: EventShowwiseRpt_BALG_BALG_.xlsx
+[2026-04-18 11:33:15]   ERROR processing EventShowwiseRpt_BALG_BALG_.xlsx: `Import openpyxl` failed.  Use pip or conda to install the openpyxl package.
+[2026-04-18 11:33:15] Script finished
+[2026-04-18 11:53:35] Script started
+[2026-04-18 11:54:16] Login successful
+[2026-04-18 11:54:17] Debug snapshot saved: /app/kirtan-baldev-meghna/debug_after_login_115416.png
+[2026-04-18 11:54:17] Clicking on element with XPath: //a[normalize-space()='Reports']
+[2026-04-18 11:54:20] Clicking on element with XPath: //a[normalize-space()='Sales Reports']
+[2026-04-18 11:54:22] Clicking on element with XPath: //a[normalize-space()='Event Show Wise New']
+[2026-04-18 11:54:24] Navigated to Event Show Wise New
+[2026-04-18 11:54:34] Processing company code: BALG
+[2026-04-18 11:54:48] Exported report for BALG
+[2026-04-18 11:54:54] Browser closed
+[2026-04-18 11:54:54] Processing file: EventShowwiseRpt_BALG_BALG_.xlsx
+[2026-04-18 11:54:54]   Inserted/updated 233 rows from EventShowwiseRpt_BALG_BALG_.xlsx
+[2026-04-18 11:54:54]   Moving to /app/kirtan-baldev-meghna/processed/2026-04-18/EventShowwiseRpt_BALG_BALG_.xlsx
+[2026-04-18 11:54:54]   Moved successfully
+[2026-04-18 11:54:54] Script finished
+[2026-04-18 16:49:00] Script started
+[2026-04-18 16:49:23] Login successful
+[2026-04-18 16:49:23] Debug snapshot saved: /app/kirtan-baldev-meghna/debug_after_login_164923.png
+[2026-04-18 16:49:23] Clicking on element with XPath: //a[normalize-space()='Reports']
+[2026-04-18 16:49:25] Clicking on element with XPath: //a[normalize-space()='Sales Reports']
+[2026-04-18 16:49:27] Clicking on element with XPath: //a[normalize-space()='Event Show Wise New']
+[2026-04-18 16:49:29] Navigated to Event Show Wise New
+[2026-04-18 16:49:39] Processing company code: BALG
+[2026-04-18 16:49:53] Exported report for BALG
+[2026-04-18 16:49:58] Browser closed
+[2026-04-18 16:49:58] Processing file: EventShowwiseRpt_BALG_BALG_.xlsx
+[2026-04-18 16:49:58]   Inserted/updated 236 rows from EventShowwiseRpt_BALG_BALG_.xlsx
+[2026-04-18 16:49:58]   Moving to /app/kirtan-baldev-meghna/processed/2026-04-18/EventShowwiseRpt_BALG_BALG_.xlsx
+[2026-04-18 16:49:59]   Moved successfully
+[2026-04-18 16:49:59] Script finished
+[2026-04-18 16:52:03] Script started
+[2026-04-18 16:52:22] Login successful
+[2026-04-18 16:52:22] Debug snapshot saved: /app/kirtan-baldev-meghna/debug_after_login_165222.png
+[2026-04-18 16:52:22] Clicking on element with XPath: //a[normalize-space()='Reports']
+[2026-04-18 16:52:25] Clicking on element with XPath: //a[normalize-space()='Sales Reports']
+[2026-04-18 16:52:27] Clicking on element with XPath: //a[normalize-space()='Event Show Wise New']
+[2026-04-18 16:52:29] Navigated to Event Show Wise New
+[2026-04-18 16:52:39] Processing company code: BALG
+[2026-04-18 16:52:52] Exported report for BALG
+[2026-04-18 16:52:57] Browser closed
+[2026-04-18 16:52:57] Processing file: EventShowwiseRpt_BALG_BALG_.xlsx
+[2026-04-18 16:52:59]   Inserted/updated 236 rows from EventShowwiseRpt_BALG_BALG_.xlsx
+[2026-04-18 16:52:59]   Moving to /app/kirtan-baldev-meghna/processed/2026-04-18/EventShowwiseRpt_BALG_BALG_.xlsx
+[2026-04-18 16:52:59]   Moved successfully
+[2026-04-18 16:52:59] Script finished
